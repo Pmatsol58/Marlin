@@ -8,6 +8,14 @@ You may take this source and build for your board but it is your responsibility 
 
 ### Development and compile-it-yourself
 
+Please note this version is no longer supported but development continues at the following link: https://github.com/rommulaner/Anycubic_Vyper_MB_CE_6.2
+
+The new 6.2 version has various fixes and has moved on to use version 2.1.2.x of Marlin which includes many changes along with input shaping.
+
+========================================================================================
+
+The following information is for the 6.1c version and earlier which are no longer recommended for use on the Vyper.
+
 If you have the Platform.io plugin installed in Visual Studio code you can open the folder to start compiling with the code.
 Please note if you have previously compiled the Anycubic source and followed their instructions then you will have a modified ArduinoSTM32 framework and this will give an error during the compile, please rename or delete the framework file and the correct version should be downloaded and compiled successfully.
 Framework file can be found here:
@@ -59,31 +67,10 @@ Initially started with the goal of providing an alternative firmware for the Any
 - Providing better firmware than the default firmwares provided by Anycubic
 - [Expanding the features](https://github.com/Pmatsol58/CR-6-touchscreen/tree/v2.0.8.1-vyper-community-release-6.1) of the limited default touch screens delivered with 3d printers
 
-Once upstream Marlin supports the strain gauge, [currently being whipped into shape in this PR @Sebazzz has submitted](https://github.com/MarlinFirmware/Marlin/pull/19958), the future of this project will probably be:
-
-- Still expanding the features of the touch screen and merge upstream
-- Continuously update this fork to the latest Marlin stable versions
-- Provide builds for some printers by default, for the less technically inclined
-
-## Community firmware support & communities
-
-Get in touch with the developers! We [have our own Discord server](https://discord.gg/RKrxYy3Q9N).
-
 
 ### Anycubic Vyper Community
 
 - [Facebook](https://www.facebook.com/groups/anycubicvyper)
-
-### Creality CR-6 communities
-The following CR-6 communities exist:
-
-- [Facebook independend CR-6 community](https://www.facebook.com/groups/cr6community)
-- [Reddit /r/CR6](https://www.reddit.com/r/CR6/)
-
-Communities hosted by Creality:
-
-- [Official CR-6 user group](https://www.facebook.com/groups/CR6SECR6MAX)
-- [Official Creality user group](https://www.facebook.com/groups/creality3dofficial)
 
 ### Other communities:
 
@@ -100,14 +87,9 @@ For general Marlin support, please check:
 - Facebook Group ["Marlin Firmware for 3D Printers"](https://www.facebook.com/groups/3Dtechtalk/)
 - [Marlin Configuration](https://www.youtube.com/results?search_query=marlin+configuration) on YouTube
 
-
-## Reporting issues
-
-- Submit **bug fixes** as pull requests to the current active default branch (`extui`)
-- Follow the [coding standards](https://marlinfw.org/docs/development/coding_standards.html)
-- Please submit your questions and concerns in the [issue tracker](https://github.com/MarlinFirmware/Marlin/issues)
-
 ## Credits
+
+The original core of this version was based on community work done for the Creality CR6 and modified to fit the Vyper screen.
 
 The current core Community firmware dev team consists of:
 
